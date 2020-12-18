@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sadlist_navigation"
+    app:startDestination="@id/sadListFragment">
+
+    <fragment
+        android:id="@+id/sadListFragment"
+        android:name="com.example.atfda_juannsuassuna.sadlist.ui.lista.SadListFragment"
+        android:label="sad_list_fragment"
+        tools:layout="@layout/sad_list_fragment" />
+    <fragment
+        android:id="@+id/showSadListFragment"
+        android:name="com.example.atfda_juannsuassuna.sadlist.ui.show.ShowSadListFragment"
+        android:label="show_sad_list_fragment"
+        tools:layout="@layout/show_sad_list_fragment" />
+    <fragment
+        android:id="@+id/createSadListFragment"
+        android:name="com.example.atfda_juannsuassuna.sadlist.ui.create.CreateSadListFragment"
+        android:label="create_sad_list_fragment"
+        tools:layout="@layout/create_sad_list_fragment" />
+</navigation>
